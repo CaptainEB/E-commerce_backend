@@ -44,11 +44,11 @@ router.put('/:id', async (req, res) => {
 	// update a category by its `id` value
 	try {
 		const id = req.params.id;
-		const { cateogy_name } = req.body;
+		const { category_name } = req.body;
 		const categoryData = await Category.update({ category_name }, { where: { id } });
-		const category = categoryData.get({ plain: true });
-		res.status(200).json(category);
+		res.status(200).json(categoryData);
 	} catch (err) {
+		console.log(err);
 		res.status(500).json(err);
 	}
 });
