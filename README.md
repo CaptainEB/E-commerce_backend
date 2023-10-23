@@ -2,7 +2,7 @@
 
 This application has multiple routes to create, update, delete, and get data from a database. The tables in the database include categories, products, and tags. This app helps keep pruducts organized for a buisiness.
 
-[Walkthrough video link]()
+[Walkthrough video link](https://drive.google.com/file/d/1L8IjPy8MigRnHWRQ95jCLe664eU9EzMm/view)
 
 ## Screenshots of the routes
 
